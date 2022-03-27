@@ -38,5 +38,5 @@ To test application<br />
       - CONTROL_DATE=2022-01-01T00:00:00.000Z ==> Filter date
       - DO_INTEGRATION_TESTS=false ==> Do integration tests
       - BASE_URL=https://api.krakenflex.systems/interview-tests-mock-api/v1/ ==> Base server url
-      - API_KEY=EltgJ5G8m44IzwE6UN2Y4B4NjPW77Zk6FJK3lL23 ==> Api key
+      - API_KEY=**** ==> Api key
 
