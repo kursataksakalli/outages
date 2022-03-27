@@ -1,0 +1,13 @@
+server:
+  port: ${PORT:8080}
+
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+outages:
+  controlDate: ${CONTROL_DATE:2022-01-01T00:00:00.000Z}
+  doIntegrationTests: ${DO_INTEGRATION_TESTS:false}
+  baseUrl: ${BASE_URL:https://api.krakenflex.systems/interview-tests-mock-api/v1/}
+  apiKey: ${API_KEY:EltgJ5G8m44IzwE6UN2Y4B4NjPW77Zk6FJK3lL23}
